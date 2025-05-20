@@ -1,0 +1,11 @@
+C:\Program Files (x86)\GnuWin32\bin\make.exe --dry-run --keep-going --print-directory
+make: Entering directory `c:/Users/Al240/Documents/GitHub/eecs22l-hw3'
+gcc -Wall -Wextra -std=c17 -Iinclude   -c -o src/main.o src/main.c
+ 
+gcc -Wall -Wextra -std=c17 -Iinclude   -c -o src/GetReqs.o src/GetReqs.c
+ 
+gcc -Wall -Wextra -std=c17 -Iinclude   -c -o src/ReportGen.o src/ReportGen.c
+gcc -Wall -Wextra -std=c17 -O2 -DNODEBUG -o rdgg-81013165.exe src/main.o src/GetReqs.o src/ReportGen.o
+ 
+make: Leaving directory `c:/Users/Al240/Documents/GitHub/eecs22l-hw3'
+ 

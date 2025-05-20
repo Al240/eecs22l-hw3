@@ -8,8 +8,8 @@ ver.    Date        Changelog
 --------------------------------------------
 */
 
-#ifndef FILEIO_H
-#define FILEIO_H
+#ifndef GETREQS_H
+#define GETREQS_H
 
 typedef struct Requirement Req;
 
@@ -25,6 +25,6 @@ void printReq(Req *requirement);            // Prints the requirement to the con
 
 char *getSRS(void);                         // User will input where the SRS file is located, returns file path
 
-void readSRS(char *reqFile);                // Parses the SRS file and returns a pointer to the ReqModule struct
+void readSRS(char *reqFile);                // Parses the SRS file
 
 #endif

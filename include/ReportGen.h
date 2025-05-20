@@ -12,7 +12,11 @@ ver.    Date        Changelog
 
 #ifndef REPORTGEN_H
 #define REPORTGEN_H
-#include "Reqs.h"
-#include "DepTree.h"
+#include "GetReqs.h"
+
+/* Function Prototypes */
+char *getOutFile(void);     // Get input for output file name
+
+void writeDepTree(Req *requirement, char *outFile);    // Writes the dependency tree for a requirement to an output file
 
 #endif
