@@ -2,7 +2,7 @@
 # Written by: Albert N. // 5/13/2025
 
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c17 -Iinclude
+CFLAGS = -Wall -Wextra -std=c17 -Iinclude -lcomdlg32
 LFLAGS = -Wall -Wextra -std=c17 $(DEBUG)
 DEBUG = -O2 -DNODEBUG
 #DEBUG = -g -DDEBUG
