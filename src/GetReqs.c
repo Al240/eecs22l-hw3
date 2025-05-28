@@ -48,6 +48,7 @@ char *getSRS(void) {                // User will input where the SRS file is loc
             fclose(srs_file);
             printf("Is this the correct SRS file? (Y)es/(N)o: ");
             scanf("%3c", &confirmed);
+
             if (confirmed[0] == 'Y' || confirmed[0] == 'y') {
                 confirm = 1;
                 return filePath;
@@ -57,15 +58,23 @@ char *getSRS(void) {                // User will input where the SRS file is loc
             }
         }
 
-        else {
-            printf("ERROR: Something went wrong selecting the file!\n");
+        else if (!GetOpenFileName(&ofn)) {
+            printf("ERROR: No file selected/File Dialog Error!\n");
             return NULL;
         }
     }
 }
 
 void readSRS(char *reqFile) {       // Parses the SRS file
-    // To be implemented...
+    FILE *srs_file = fopen(reqFile, "r");
+    if (!srs_file) {
+        perror("ERROR: Unable to open SRS file!\n");
+        return;
+    }
+    else {
+        Req requirement;
+        
+    }
 }
 
 void printReq(Req *requirement) {   // Prints the requirement to the console
