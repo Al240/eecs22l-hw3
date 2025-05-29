@@ -8,7 +8,7 @@ C:\Program Files (x86)\GnuWin32\bin\make.exe all --print-data-base --no-builtin-
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Wed May 28 19:36:36 2025
+# Make data base, printed on Wed May 28 21:12:09 2025
 
 # Variables
 
@@ -33,7 +33,8 @@ HOMEDRIVE = C:
 # makefile
 CURDIR := c:/Users/Al240/Documents/GitHub/eecs22l-hw3
 # default
-SHELL := sh.exe
+SHELL := s 
+h.exe
 # environment
 WINDIR = C:\WINDOWS
 # environment
@@ -81,7 +82,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20736_QICQGZGOVGIYYLCS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16688_VFBNZKRCSUEFMBQW
 # environment
 COMPUTERNAME = DESKTOP-FEG0RLL
 # environment
@@ -95,7 +96,8 @@ USERNAME = Al240
 # environment
 PUBLIC = C:\Users\Public
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Al240\AppData\Roaming\Code\CachedData\848b80aeb52026648a8ff9f7c45a9b0a80641e2e
+VSCODE_CODE_CA 
+CHE_PATH = C:\Users\Al240\AppData\Roaming\Code\CachedData\848b80aeb52026648a8ff9f7c45a9b0a80641e2e
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
@@ -171,7 +173,8 @@ VSCODE_L10N_BUNDLE_LOCATION =
 # environment
 APPDATA = C:\Users\Al240\AppData\Roaming
 # environment
-TEMP = C:\Users\Al240\AppData\Local\Temp
+TEMP = C:\Users\A 
+l240\AppData\Local\Temp
 # environment
 AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
 # environment
@@ -203,7 +206,7 @@ PROCESSOR_LEVEL = 25
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 20736
+VSCODE_PID = 16688
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # variable set hash-table stats:
@@ -216,7 +219,8 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # Directories
 
 # C:\Program Files\BellSoft\LibericaJDK-11\bin\ (key C:/Program Files/BellSoft/LibericaJDK-11/bin/, mtime 1732753934): 130 files, no impossibilities.
-# C:\Users\Al240\AppData\Local\GitHubDesktop\bin (key C:/Users/Al240/AppData/Local/GitHubDesktop/bin, mtime 1735024413): 4 files, no impossibilities.
+# C:\Users\Al240\AppData\Local 
+\GitHubDesktop\bin (key C:/Users/Al240/AppData/Local/GitHubDesktop/bin, mtime 1735024413): 4 files, no impossibilities.
 # C:\Program Files (x86)\Razer\ChromaBroadcast\bin: could not be stat'd.
 # C:\Users\Al240\AppData\Local\Microsoft\WindowsApps (key C:/Users/Al240/AppData/Local/Microsoft/WindowsApps, mtime 1745477531): 36 files, no impossibilities.
 # C:\Program Files (x86)\Razer Chroma SDK\bin: could not be stat'd.
@@ -225,9 +229,10 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # . (key c:/Users/Al240/Documents/GitHub/eecs22l-hw3, mtime 1748475218): 11 files, no impossibilities.
 # C:\WINDOWS\AtlasModules (key C:/WINDOWS/AtlasModules, mtime 1730360442): 10 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1732510344): 8 files, no impossibilities.
-# C:\Program Files (x86)\Common Files\Oracle\Java\java8path (key C:/Program Files (x86)/Common Files/Oracle/Java/java8path, mtime 1745428570): 5 files, no impossibilities.
+# C:\Program Files (x86)\Common Files 
+\Oracle\Java\java8path (key C:/Program Files (x86)/Common Files/Oracle/Java/java8path, mtime 1745428570): 5 files, no impossibilities.
 # C:\WINDOWS\AtlasModules\Scripts (key C:/WINDOWS/AtlasModules/Scripts, mtime 1730360171): 13 files, no impossibilities.
-# C:\MinGW\bin (key C:/MinGW/bin, mtime 1731472007): 470 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1748491882): 567 files, no impossibilities.
 # C:\Program Files\BellSoft\LibericaJDK-21\bin\ (key C:/Program Files/BellSoft/LibericaJDK-21/bin/, mtime 1730367284): 128 files, no impossibilities.
 # C:\WINDOWS\AtlasModules\Tools (key C:/WINDOWS/AtlasModules/Tools, mtime 1730360171): 4 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
@@ -236,7 +241,8 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # src/src (key (null), mtime 0): No files, 1 impossibilities.
 # C:\Program Files\Razer\ChromaBroadcast\bin: could not be stat'd.
 # C:\Program Files\Razer Chroma SDK\bin: could not be stat'd.
-# src (key c:/Users/Al240/Documents/GitHub/eecs22l-hw3/src, mtime 1748484584): No files, no impossibilities so far.
+# src (key c: 
+/Users/Al240/Documents/GitHub/eecs22l-hw3/src, mtime 1748491920): No files, no impossibilities so far.
 # C:\Users\Al240\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Al240/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1747712068): 5 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1735024691): 13 files, no impossibilities.
 # C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1748399851): 3085 files, no impossibilities.
@@ -245,9 +251,10 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # C:\Users\Al240\AppData\Local\spicetify (key C:/Users/Al240/AppData/Local/spicetify, mtime 1748402018): 10 files, no impossibilities.
 # C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps: could not be stat'd.
 
-# 4284 files, 1 impossibilities in 29 directories.
+# 4381 files, 1 impossibilities in 29 directories.
 
-# Implicit Rules
+# Implici 
+t Rules
 
 %.o: src/%.c
 #  commands to execute (from `makefile', line 19):
@@ -271,7 +278,8 @@ all: rdgg-81013165.exe
 src/main.o:
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#   
+File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -310,7 +318,8 @@ makefile:
 rdgg-81013165.exe: src/main.o src/Reqs.o src/ReportGen.o
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has not 
+ been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 #  commands to execute (from `makefile', line 23):
@@ -354,7 +363,7 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed May 28 19:36:36 2025
+# Finished Make data base on Wed May 28 21:12:09 2025
 
  
 make: *** No rule to make target `src/main.o', needed by `rdgg-81013165.exe'.  Stop.
