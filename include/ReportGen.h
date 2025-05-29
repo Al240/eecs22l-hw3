@@ -12,11 +12,14 @@ ver.    Date        Changelog
 
 #ifndef REPORTGEN_H
 #define REPORTGEN_H
-#include "GetReqs.h"
+#include "Reqs.h"
 
 /* Function Prototypes */
 char *getOutFile(void);     // Get input for output file name
 
-void writeDepTree(Req *requirement, char *outFile);    // Writes the dependency tree for a requirement to an output file
+void writeDepTree(char *outFile, Req *pReq, Req *cReq); // Writes the dependency tree (format: parent -> child) to an output file
 
+char *getSRS(void);                                     // User will input where the SRS file is located, returns file path
+
+int readSRS(char *reqFile);                            // Parses the SRS file
 #endif

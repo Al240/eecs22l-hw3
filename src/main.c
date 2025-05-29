@@ -11,5 +11,20 @@ ver.    Date        Changelog
 #include "../include/ReportGen.h"
 
 int main(void) { // Get SRS file, parse/create dep. tree, and generate report. 
-    // To be implemented...
+    int readSuccess;
+    char *srs = getSRS(); // User will specify SRS file path
+    if (!srs) {
+        printf("ERROR: Unable to open an SRS file!\n");
+        return 1;
+    }
+
+    readSuccess = readSRS(srs); // Read and parse the given SRS
+    if (readSuccess == 0) {
+        printf("Successfully parsed the SRS file! Quitting...\n");
+        return 0;
+    }
+    else {
+        printf("There was an error in the SRS parsing process!\n");
+        return readSuccess; // Return error code
+    }
 }

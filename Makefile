@@ -9,7 +9,7 @@ DEBUG = -O2 -DNODEBUG
 
 # List of source files
 SRCS = src/main.c \
-	   src/GetReqs.c \
+	   src/Reqs.c \
 	   src/ReportGen.c
 # List of object files
 OBJS = $(SRCS:.c=.o)

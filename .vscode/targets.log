@@ -8,7 +8,7 @@ C:\Program Files (x86)\GnuWin32\bin\make.exe all --print-data-base --no-builtin-
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon May 19 21:47:59 2025
+# Make data base, printed on Wed May 28 19:36:36 2025
 
 # Variables
 
@@ -22,8 +22,6 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 MAKEFLAGS = Rrqp
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-EFC_8112 = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -33,8 +31,7 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
-CURDIR := c:/Users/Al240/Documents/GitHub/eecs2 
-2l-hw3
+CURDIR := c:/Users/Al240/Documents/GitHub/eecs22l-hw3
 # default
 SHELL := sh.exe
 # environment
@@ -44,7 +41,7 @@ VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":
 # environment
 RG_GPU_FRAMEWORK_ENGINE_RESOURCEDIR = C:\Program Files\Red Giant\RGFX
 # makefile (from `makefile', line 5)
-CFLAGS = -Wall -Wextra -std=c17 -Iinclude
+CFLAGS = -Wall -Wextra -std=c17 -Iinclude -lcomdlg32
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # makefile (from `makefile', line 1)
@@ -84,7 +81,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22284_FVCRYKDVTJVFHGGJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20736_QICQGZGOVGIYYLCS
 # environment
 COMPUTERNAME = DESKTOP-FEG0RLL
 # environment
@@ -114,10 +111,11 @@ USERDOMAIN = DESKTOP-FEG0RLL
 # default
 MAKE = $(MAKE_COMMAND)
 # default
-MAKECMDGOALS := all 
-
+MAKECMDGOALS := all
 # makefile (from `makefile', line 11)
-SRCS = src/main.c src/GetReqs.c src/ReportGen.c
+SRCS = src/main.c src/Reqs.c src/ReportGen.c
+# environment
+EFC_8228 = 1
 # makefile (from `makefile', line 4)
 CC = gcc
 # environment
@@ -173,8 +171,7 @@ VSCODE_L10N_BUNDLE_LOCATION =
 # environment
 APPDATA = C:\Users\Al240\AppData\Roaming
 # environment
-TEMP = C:\Users\Al240\App 
-Data\Local\Temp
+TEMP = C:\Users\Al240\AppData\Local\Temp
 # environment
 AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
 # environment
@@ -206,7 +203,7 @@ PROCESSOR_LEVEL = 25
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 22284
+VSCODE_PID = 20736
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # variable set hash-table stats:
@@ -219,44 +216,39 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-FEG0RLL
 # Directories
 
 # C:\Program Files\BellSoft\LibericaJDK-11\bin\ (key C:/Program Files/BellSoft/LibericaJDK-11/bin/, mtime 1732753934): 130 files, no impossibilities.
-# C:\Users\Al240\AppData\Local\GitHubD 
-esktop\bin (key C:/Users/Al240/AppData/Local/GitHubDesktop/bin, mtime 1735024413): 4 files, no impossibilities.
+# C:\Users\Al240\AppData\Local\GitHubDesktop\bin (key C:/Users/Al240/AppData/Local/GitHubDesktop/bin, mtime 1735024413): 4 files, no impossibilities.
 # C:\Program Files (x86)\Razer\ChromaBroadcast\bin: could not be stat'd.
 # C:\Users\Al240\AppData\Local\Microsoft\WindowsApps (key C:/Users/Al240/AppData/Local/Microsoft/WindowsApps, mtime 1745477531): 36 files, no impossibilities.
 # C:\Program Files (x86)\Razer Chroma SDK\bin: could not be stat'd.
-# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtim 
-e 1725595878): 33 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1725595878): 33 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1732105781): 158 files, no impossibilities.
-# . (key c:/Users/Al240/Documents/GitHub/eecs22l-hw3, mtime 1747712055): 9 files, no impossibilities.
+# . (key c:/Users/Al240/Documents/GitHub/eecs22l-hw3, mtime 1748475218): 11 files, no impossibilities.
 # C:\WINDOWS\AtlasModules (key C:/WINDOWS/AtlasModules, mtime 1730360442): 10 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1732510344): 8 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\Oracle\Java\java8path (key C:/Program Files (x86)/Common Files/Oracle/Java/java8path, mtime 1745428570): 5 files, no impossibilities.
 # C:\WINDOWS\AtlasModules\Scripts (key C:/WINDOWS/AtlasModules/Scripts, mtime 1730360171): 13 files, no impossibilities.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1731472007): 470 files, no impossibilities.
 # C:\Program Files\BellSoft\LibericaJDK-21\bin\ (key C:/Program Files/BellSoft/LibericaJDK-21/bin/, mtime 1730367284): 128 files, no impossibilities.
-# C:\WINDOWS\AtlasModules\Tools 
- (key C:/WINDOWS/AtlasModules/Tools, mtime 1730360171): 4 files, no impossibilities.
+# C:\WINDOWS\AtlasModules\Tools (key C:/WINDOWS/AtlasModules/Tools, mtime 1730360171): 4 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath: could not be stat'd.
 # C:\WINDOWS (key C:/WINDOWS, mtime 1747625253): 129 files, no impossibilities.
 # src/src (key (null), mtime 0): No files, 1 impossibilities.
 # C:\Program Files\Razer\ChromaBroadcast\bin: could not be stat'd.
 # C:\Program Files\Razer Chroma SDK\bin: could not be stat'd.
-# src (key c:/Users/Al 
-240/Documents/GitHub/eecs22l-hw3/src, mtime 1747714872): No files, no impossibilities so far.
+# src (key c:/Users/Al240/Documents/GitHub/eecs22l-hw3/src, mtime 1748484584): No files, no impossibilities so far.
 # C:\Users\Al240\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Al240/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1747712068): 5 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1735024691): 13 files, no impossibilities.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1747703919): 3085 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1748399851): 3085 files, no impossibilities.
 # C:\Program Files\Python313\ (key C:/Program Files/Python313/, mtime 1734667616): 27 files, no impossibilities.
 # C:\Program Files\Python313\Scripts\ (key C:/Program Files/Python313/Scripts/, mtime 1734667616): 5 files, no impossibilities.
-# C:\Users\Al240\AppData\Local\spicetify (key C:/Users/Al240/AppData/Local/spicetify, mtime 1747283214): 10 files, no impossibilities.
+# C:\Users\Al240\AppData\Local\spicetify (key C:/Users/Al240/AppData/Local/spicetify, mtime 1748402018): 10 files, no impossibilities.
 # C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps: could not be stat'd.
 
-# 4282 files, 1 impossibilities in 29 directories.
+# 4284 files, 1 impossibilities in 29 directories.
 
 # Implicit Rules
 
- 
 %.o: src/%.c
 #  commands to execute (from `makefile', line 19):
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -279,8 +271,7 @@ all: rdgg-81013165.exe
 src/main.o:
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has  
-not been updated.
+#  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -296,14 +287,13 @@ not been updated.
 #  File has not been updated.
 
 # Not a target:
-src/GetReqs.o:
+src/ReportGen.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a 
- target:
-src/ReportGen.o:
+# Not a target:
+src/Reqs.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -311,13 +301,13 @@ src/ReportGen.o:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2025-05-19 21:47:50
+#  Last modified 2025-05-28 19:11:49
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-rdgg-81013165.exe: src/main.o src/GetReqs.o src/ReportGen.o
+rdgg-81013165.exe: src/main.o src/Reqs.o src/ReportGen.o
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -352,7 +342,7 @@ clean:
 	
 
 # files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=2/33=6%
+# Load=11/1024=1%, Rehash=0, Collisions=0/33=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -364,7 +354,7 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon May 19 21:47:59 2025
+# Finished Make data base on Wed May 28 19:36:36 2025
 
  
 make: *** No rule to make target `src/main.o', needed by `rdgg-81013165.exe'.  Stop.
