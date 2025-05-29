@@ -6,7 +6,7 @@ Written by: Albert N. // 5/13/2025
 EECS 22L Spring 2025 Assignment 3
 --------------------------------------------
 ver.    Date        Changelog
-1.1     5/20/2025   Function implementations, getOutFile() now also creates the file
+1.1     5/20/2025   Function implementations
 1.0     5/13/2025   Initial version
 --------------------------------------------
 */
