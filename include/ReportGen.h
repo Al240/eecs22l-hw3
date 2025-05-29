@@ -17,9 +17,9 @@ ver.    Date        Changelog
 /* Function Prototypes */
 char *getOutFile(void);     // Get input for output file name
 
-void writeDepTree(char *outFile, Req *pReq, Req *cReq); // Writes the dependency tree (format: parent -> child) to an output file
+void writeDepTree(char *outFile, unsigned int lineNum, Req *pReq, Req *cReq);   // Writes the dependency tree (Line #: parent -> child) to an output file
 
-char *getSRS(void);                                     // User will input where the SRS file is located, returns file path
+char *getSRS(void);     // User will input where the SRS file is located, returns file path
 
-int readSRS(char *reqFile);                            // Parses the SRS file
+int readSRS(char *reqFile);     // Parses the SRS file
 #endif

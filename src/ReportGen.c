@@ -27,7 +27,7 @@ char *getOutFile(void) {    // Create an output file
     } while (!outFileName);
 }
 
-void writeDepTree(char *outFile, Req *pReq, Req *cReq) {    // Writes the dependency tree for a requirement to an output file
+void writeDepTree(char *outFile, unsigned int lineNum, Req *pReq, Req *cReq) {    // Writes the dependency tree for a requirement to an output file
     FILE *file = fopen(outFile, "a");
     if (!file) {
         perror("ERROR: Unable to open output file!\n");
@@ -35,11 +35,9 @@ void writeDepTree(char *outFile, Req *pReq, Req *cReq) {    // Writes the depend
     }
     else {
         if (pReq && cReq) {
-        fprintf(file, "%s -> %s\n", pReq->ID, cReq->ID);
-        } else if (pReq) {
-            fprintf(file, "%s\n", pReq->ID);
-        } else if (cReq) {
-            fprintf(file, "%s\n", cReq->ID);
+        fprintf(file, "Line %d: %s -> %s\n", lineNum, pReq->ID, cReq->ID);
+        } else if (pReq && !cReq) {
+            fprintf(file, "Line %d: %s --\n", lineNum, pReq->ID);
         }
 
         fclose(file);
